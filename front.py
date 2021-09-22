@@ -58,7 +58,7 @@ class Application(tk.Frame):
         tk.Label(t, text='Введите номер пункта', width=20, height=5).grid(
             row=1, column=1, columnspan=2, padx=10, pady=10
         )
-        tk.Label(t, text='Введите номер пункта', width=20, height=5).grid(
+        tk.Label(t, text='Введите название тикета', width=20, height=5).grid(
             row=2, column=1, columnspan=2, padx=10, pady=10
         )
         point_text = tk.Text(t, width=30, height=5, bg='lightblue')
